@@ -1,24 +1,21 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Dependency folders (ตัวหนักที่สุด ไม่เอาขึ้น)
+node_modules/
 
-node_modules
-dist
-dist-ssr
-*.local
+# Local env files (ไฟล์เก็บรหัสผ่านหรือความลับ)
+.env
+.env.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Editor folders (ไฟล์ตั้งค่าของโปรแกรมเขียนโค้ด)
+.vscode/
+.idea/
+
+# OS metadata (ไฟล์ขยะของระบบปฏิบัติการ)
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# Build output (ไฟล์ที่ได้จากการ build ไม่ต้องเอาขึ้น)
+dist/
+build/
+
+# ข้อมูลพนักงาน (ถ้าไม่อยากให้ข้อมูลจริงหลุดไปบน GitHub)
+# employees.xlsx
